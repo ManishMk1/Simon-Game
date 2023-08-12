@@ -17,7 +17,7 @@ document.addEventListener("keypress", () => {
   }
 });
 
-document.addEventListener("ontoucend", () => {
+document.addEventListener("ontouchend", () => {
     // console.log("game started");
     if (started == false) {
       // console.log("game started");
