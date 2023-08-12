@@ -17,6 +17,16 @@ document.addEventListener("keypress", () => {
   }
 });
 
+document.addEventListener("ontoucend", () => {
+    // console.log("game started");
+    if (started == false) {
+      // console.log("game started");
+      started = true;
+  
+      levelUp();
+    }
+  });
+
 const levelUp = ()=>{
     userSeq = [];
     level++;
