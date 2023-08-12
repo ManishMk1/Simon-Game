@@ -17,7 +17,8 @@ document.addEventListener("keypress", () => {
   }
 });
 
-document.addEventListener("ontouchend", () => {
+let btnStrt = document.querySelector('#click-strt');
+btnStrt.addEventListener("click", () => {
     // console.log("game started");
     if (started == false) {
       // console.log("game started");
